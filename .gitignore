@@ -1,3 +1,8 @@
+qtapp
+moc_*
+.qmake.stash
+Makefile
+
 # Prerequisites
 *.d
 
