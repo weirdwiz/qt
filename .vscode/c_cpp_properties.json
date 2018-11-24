@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/qt",
+                "/usr/include/qt/QtCore",
+                "/usr/include/qt/QtWidgets",
+                "${workspaceFolder}"
+            ]
+        }
+    ],
+    "version": 4
+}
