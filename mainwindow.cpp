@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 
 #include <QCoreApplication>
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
   // Create the button, make "this" the parent
@@ -13,8 +14,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 }
 
 void MainWindow::handleButton() {
-  // change the text
-  m_button->setText("Example");
-  // resize button
-  m_button->resize(100, 100);
+  QMessageBox msgBox;
+  msgBox.setText("Hello World!");
+  msgBox.exec();
 }
